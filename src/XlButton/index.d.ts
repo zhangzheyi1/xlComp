@@ -1,5 +1,7 @@
-import { AyButtonProps } from './ay-button'
+import { XlButtonProps } from './xl-button';
 
-declare const AyButton: React.ForwardRefExoticComponent<AyButtonProps & React.RefAttributes<HTMLDivElement>>
+declare const XlButton: React.ForwardRefExoticComponent<
+  XlButtonProps & React.RefAttributes<HTMLDivElement>
+>;
 
-export default AyButton
+export default XlButton;

@@ -56,7 +56,7 @@ let keys = [
   'confirmVisible',
   'sub',
 ];
-export default function AyButton(props: XlButtonProps) {
+export default function XlButton(props: XlButtonProps) {
   const [, setRefresh] = useState<number>(0);
   let params: AnyKeyProps = {
     ...props,
@@ -75,7 +75,7 @@ export default function AyButton(props: XlButtonProps) {
   }
 
   // 控制样式
-  let className: string[] | string = [`ay-button`];
+  let className: string[] | string = [`xl-button`];
 
   // 是否在折叠按钮里面
   if (props.__simple) {
@@ -138,4 +138,4 @@ export default function AyButton(props: XlButtonProps) {
   return btn;
 }
 
-AyButton.componentName = 'AyButton';
+XlButton.componentName = 'XlButton';
