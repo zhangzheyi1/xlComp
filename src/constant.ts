@@ -1,6 +1,6 @@
 export const TRUE = '1'
 export const FALSE = '0'
-export const A = 'TEST'
+export const A = 'TEST1'
 
 /** 主页地址 */
 export const HOME_PATH = '/home'
