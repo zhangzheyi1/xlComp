@@ -7,6 +7,8 @@ import { AnyKeyProps } from '../types/AnyKeyProps';
 
 const refreshList: Array<any> = [];
 
+const a = 'test';
+
 export const addRefresh = (setRefresh: any) => {
   refreshList.push(setRefresh);
 };
